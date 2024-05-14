@@ -1,0 +1,123 @@
+[
+  {
+    "ContainingType": "CapitalPlacementTask1.Controllers.ApplicationController",
+    "Method": "SubmitApplication",
+    "RelativePath": "api/v1/Application",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "submitApplicationRequest",
+        "Type": "CapitalPlacementTask1.Models.Requests.SubmitApplicationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CapitalPlacementTask1.Controllers.ApplicationController",
+    "Method": "GetAllApplications",
+    "RelativePath": "api/v1/Application/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CapitalPlacementTask1.Controllers.ProgramController",
+    "Method": "CreateProgram",
+    "RelativePath": "api/v1/Program",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "programRequest",
+        "Type": "CapitalPlacementTask1.Models.Requests.CreateProgramRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CapitalPlacementTask1.Controllers.ProgramController",
+    "Method": "GetProgramByTitle",
+    "RelativePath": "api/v1/Program",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "programTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CapitalPlacementTask1.Controllers.ProgramController",
+    "Method": "UpdateProgram",
+    "RelativePath": "api/v1/Program/{programId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "programId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "programRequest",
+        "Type": "CapitalPlacementTask1.Models.Requests.CreateProgramRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CapitalPlacementTask1.Controllers.ProgramController",
+    "Method": "DeleteProgram",
+    "RelativePath": "api/v1/Program/{programId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "programId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CapitalPlacementTask1.Controllers.ProgramController",
+    "Method": "GetProgramById",
+    "RelativePath": "api/v1/Program/{programId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "programId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CapitalPlacementTask1.Controllers.ProgramController",
+    "Method": "GetAllPrograms",
+    "RelativePath": "api/v1/Program/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
